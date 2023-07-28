@@ -4,7 +4,6 @@ import userInfo from "./userData";
 import reportsInfo from "./reportsData";
 
 class LabReports extends Component {
-
   render() {
     return (
       <section className="container labinfo">
@@ -112,19 +111,20 @@ const TableRow = (props) => {
           disabled
         />
         <div>
-        <input
-          className="report--readingUnit"
-          type="text"
-          value={props.value2}
-          readOnly
-          disabled />
-        <input
-          className="report--readingCriteria"
-          type="text"
-          value={props.value3}
-          readOnly
-          disabled
-        />
+          <input
+            className="report--readingUnit"
+            type="text"
+            value={props.value2}
+            readOnly
+            disabled
+          />
+          <input
+            className="report--readingCriteria"
+            type="text"
+            value={props.value3}
+            readOnly
+            disabled
+          />
         </div>
       </td>
     </tr>
