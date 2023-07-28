@@ -10,38 +10,18 @@
   .labinfo {
     grid-template-columns: 0.3fr 1fr;
   }
-  .info--section::after {
-    content: "";
-    position: absolute;
-    height: 95%;
-    width: 1px;
-    background: grey;
-    left: 22vw;
-    top: 20px;
+
+
+  .info--section {
+    border-right: 1px solid rgb(142, 144, 142);
   }
 }
 
-/* @media screen and (min-width: 800px) {
-  .labinfo::after {
-    left: 34vw;
-  }
-}
-
-@media screen and (min-width: 840px) {
-  .labinfo::after {
-    left: 30vw;
-  }
-}
-
-@media screen and (min-width: 950px) {
-  .labinfo::after {
-    left: 27vw;
-  }
-} */
 
 .info--section {
   padding: 20px;
   margin: 0 auto;
+
 }
 
 .info--userimage {
@@ -64,23 +44,25 @@
   border-radius: 20px;
 }
 
-.info--enrollment > div > h1 {
+.info--enrollment>div>h1 {
   font-size: 1.1rem;
   font-weight: 500;
 }
 
-.info--enrollment > div > p {
+.info--enrollment>div>p {
   margin: 5px 0;
 }
 
 .report--section {
   padding: 40px;
+  margin: 0 auto;
 }
 
 .report--title {
   font-size: 1.7rem;
   font-weight: 600;
 }
+
 .report--readings {
   width: 50vw;
   display: flex;
@@ -100,14 +82,32 @@
 }
 
 .readings {
-  padding: 2px 5px 7px 1px;
-  border: 1px solid grey;
+  padding: 2px 5px 2px 1px;
+  border: 1px solid rgb(186, 185, 185);
   text-align: center;
   border-radius: 20px;
 }
 
 .report--firstReading {
   width: 90px;
+  padding-bottom: 2px;
+}
+
+.report--readingUnit {
+
+  border-radius: 20px 0 0 20px;
+  padding: 2px 5px 7px 1px;
+  border: 1px solid rgb(186, 185, 185);
+  text-align: center;
+  background: rgb(238, 237, 237);
+  width: 90px;
+}
+
+.report--readingCriteria {
+  border-radius: 0 20px 20px 0;
+  padding: 2px 5px 7px 1px;
+  border: 1px solid rgb(186, 185, 185);
+  text-align: center;
 }
 
 .report--tableCaption {
@@ -121,23 +121,31 @@ table {
   border-spacing: 0 1em;
 }
 
+input, select {
+  color: rgb(139, 138, 138);
+}
+
 .report--buttons {
   width: 50vw;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 .button {
   border-radius: 20px;
-  width: 100px;
+  width: 120px;
   padding: 2px 15px;
   margin: 10px;
+
 }
 
-.button--backHome {
-}
 
 .button--done {
   background: rgb(88, 88, 252);
   color: white;
+}
+
+.button--backHome {
+  border: 2px solid rgb(182, 181, 181);
+
 }
