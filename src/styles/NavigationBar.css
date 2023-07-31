@@ -1,64 +1,63 @@
 /* NavigationBar.css */
 .navigation-bar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #ffffff !important;
-    padding: 0px;
-    width: 1350px;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff !important;
+  padding: 0px;
+  width: 1350px;
+  margin: 0 auto;
+}
 
-  .navbarlist li{
-    display: inline-block !important;
-    
+.navbarlist li {
+  display: inline-block !important;
+}
 
-  }
-  
-  .logo{
-    margin-left: -10px;
-  }
+.logo {
+  margin-left: -10px;
+}
 
-  /* .search-bar{
+/* .search-bar{
     margin: 0px 300px;
     height: 26px;
     width: 270px;
     border-radius: 10px;
   } */
 
-.search_icon{
+.search_icon {
   position: relative;
   top: -14px;
   left: -264px;
 }
 
-.opd_img{
+.opd_img {
   height: 15px;
   width: 15px;
 }
 
-.report_img{
+.report_img {
   height: 15px;
   width: 15px;
 }
 
-.lab_img{
+.lab_img {
   height: 15px;
   width: 15px;
 }
 
-  .pagenavigation{
-    margin: 0 35px;
-    position: relative;
-    top: -27px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    
-  }
+.pagenavigation {
+  margin: 0 35px;
+  position: relative;
+  top: -27px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
 
- .pagenavigation a{
+.pagenavigation a {
   text-decoration: none;
   color: black;
- }
-  /* .logo {
+}
+/* .logo {
     width: 80px;
     height: 40px;
   }
@@ -66,39 +65,34 @@
   .button-group button {
     margin-left: 10px;
   } */
-  
-  .dropdown-menu {
-    display: flex;
-    align-items: center;
-    position: relative;
-    top: -27px;
-  
-  }
-  
-  .dropdown-menu span {
-    margin-right: 5px;
-  }
-  
-  
-   .search-bar {
-    padding: 11px 25px;
-    border: 1px solid #ccc;
-    border-radius: 45px;
-    width: 215px;
-    margin: -20px 200px; 
-    position: relative;
-    top: -27px;
-    padding-right: 30px; /* Add padding on the right to make space for the icon */
-   /* Replace 'path/to/search-icon.png' with the path to your search icon image */
-    background-repeat: no-repeat;
-    background-position: right center; /* Position the icon on the right and vertically centered */
-    background-size: 35px 31px; /* Adjust the size of the icon as needed */
-    
-  } 
-  
 
+.dropdown-menu {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: -27px;
+}
 
-  /* styles.css */
+.dropdown-menu span {
+  margin-right: 5px;
+}
+
+.search-bar {
+  padding: 11px 25px;
+  border: 1px solid #ccc;
+  border-radius: 45px;
+  width: 215px;
+  margin: -20px 200px;
+  position: relative;
+  top: -27px;
+  padding-right: 30px; /* Add padding on the right to make space for the icon */
+  /* Replace 'path/to/search-icon.png' with the path to your search icon image */
+  background-repeat: no-repeat;
+  background-position: right center; /* Position the icon on the right and vertically centered */
+  background-size: 35px 31px; /* Adjust the size of the icon as needed */
+}
+
+/* styles.css */
 
 /* General styles for the navigation bar */
 .navigation-bar {
@@ -141,7 +135,6 @@
   background-color: #f9f9f9;
   border: 1px solid #ddd;
   width: 110px;
-  
 }
 
 .user-profile:hover .dropdown-menu {
@@ -151,17 +144,13 @@
 /* Styles for individual menu items */
 .dropdown-menu li {
   padding: 8px;
-  
 }
 
 .dropdown-menu li a {
   color: #333;
   text-decoration: none;
-  
 }
 
 .dropdown-menu li a:hover {
   background-color: #ddd;
 }
-
-
